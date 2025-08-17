@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/#fileId=https%3A//huggingface.co/shashankverma590/tiny-llama-1b-kid-friendly-chatbot-tiny.ipynb
 """
 
-!pip install -U transformers
 
 """## Local Inference on GPU
 Model page: https://huggingface.co/shashankverma590/tiny-llama-1b-kid-friendly-chatbot-tiny
