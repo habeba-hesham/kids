@@ -52,10 +52,6 @@ outputs = model.generate(input_ids, max_new_tokens=50, pad_token_id=tokenizer.eo
 reply = tokenizer.decode(outputs[0][input_ids.shape[-1]:], skip_special_tokens=True)
 print("Bot reply:", reply)
 
-!pip install streamlit
-
-!pip install pyngrok
-
 import streamlit as st
 
 if "messages" not in st.session_state:
